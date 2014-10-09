@@ -30,6 +30,9 @@ gem 'bootstrap-sass', '~> 3.2.0'
 # Paperclip for managing images
 gem "paperclip", "~> 4.2"
 
+# Devise for management of user accounts
+gem 'devise'
+
 # Use postgres for production
 group :production do
   gem 'pg'
