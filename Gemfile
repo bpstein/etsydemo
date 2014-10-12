@@ -30,6 +30,9 @@ gem 'bootstrap-sass', '~> 3.2.0'
 # Paperclip for managing images
 gem "paperclip", "~> 4.2"
 
+# AWS gem for managing images for Heroku
+gem 'aws-sdk', '~> 1.20.0'
+
 # Devise for management of user accounts
 gem 'devise'
 
