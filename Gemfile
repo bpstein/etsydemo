@@ -1,3 +1,4 @@
+source 'https://code.stripe.com'
 source 'https://rubygems.org'
 ruby "2.1.2"
 
@@ -35,6 +36,12 @@ gem 'aws-sdk', '~> 1.20.0'
 
 # Devise for management of user accounts
 gem 'devise'
+
+# Stripe for payments processing
+gem 'stripe'
+
+# Figaro for secure configuration
+gem "figaro", "~> 0.7.0"
 
 # Use postgres for production
 group :production do
