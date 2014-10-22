@@ -2,7 +2,7 @@ jQuery ->
   Stripe.setPublishableKey($('meta[name="stripe-key"]').attr('content'))
   payment.setupForm()
 
-payment =
+payment = 
   setupForm: ->
     $('#new_order').submit ->
         $('input[type=submit]').attr('disabled', true)
