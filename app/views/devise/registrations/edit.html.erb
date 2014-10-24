@@ -1,4 +1,4 @@
-<h2>Edit <%= resource_name.to_s.humanize %></h2>
+<h3>Edit <%= resource_name.to_s.humanize %></h3>
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
   <%= devise_error_messages! %>
@@ -44,8 +44,8 @@
   </div>
 <% end %>
 
-<h3>Cancel my account</h3>
+<h3>Danger Zone</h3>
 
-<p>Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete, class: "btn btn-danger" %></p>
+<p>Unhappy or no longer interested in using this service? <br><br> Cancel your account here. <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure you want to cancel your account with us? This action cannot be undone." }, method: :delete, class: "btn btn-danger" %></p>
 
 <%= link_to "Back", :back %>

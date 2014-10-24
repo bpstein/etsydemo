@@ -38,7 +38,8 @@ body {
 }
 
 .jumbotron {
-  background-image: url('jumbotron.jpg');
+  margin-top: 80px;
+  background-image: url('https://s3.amazonaws.com/bs-etsydemo/site-imagery/jumbotron.jpg');
   h1, h2 {
     font-family: guardian-egyptt, georgia, serif;
     color: #FFFFFF;
